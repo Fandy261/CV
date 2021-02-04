@@ -17,10 +17,17 @@ body{
     width: auto;
     padding: 50px;
 }
+nav{
+    display: flex;
+}
+nav h1{
+    justify-content: center;
+}
 .fil_ariane{
     background-color: #d5f6f5;
     height: 6px;
-    /* width: auto; */
+    width: 1000px;
+    margin: auto;
 }
 ul li{
     display: inline;
