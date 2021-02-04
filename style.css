@@ -17,10 +17,8 @@ body{
     width: auto;
     padding: 50px;
 }
-nav{
+nav .titre, nav .sous_titre{
     display: flex;
-}
-nav h1{
     justify-content: center;
 }
 .fil_ariane{
@@ -29,6 +27,19 @@ nav h1{
     width: 1000px;
     margin: auto;
 }
-ul li{
-    display: inline;
+footer .contact ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+footer .contact ul{
+    text-align: center;
+}
+.linkedin img{
+    width: 13px;
+}
+.facebook img{
+    width: 13px;
+}
+.github img{
+    width: 13px;
 }
